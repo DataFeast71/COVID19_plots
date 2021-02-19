@@ -6,4 +6,4 @@ To this page you should add links to you interactive html-plots that are located
 
 Add here links to the maps that you have created:
 
-* Link to the plot
+* [Vaccine Network](https://datafeast71.github.io/COVID19_plots/COVID_Vaccine_network.html)
