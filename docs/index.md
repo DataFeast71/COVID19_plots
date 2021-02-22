@@ -2,7 +2,7 @@
 
 To this page you should add links to you interactive html-plots that are located in the repostitory.
 
-## My plots
+## COVID19-related
 
 Add here links to the maps that you have created:
 
