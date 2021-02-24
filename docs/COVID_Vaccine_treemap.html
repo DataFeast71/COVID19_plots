@@ -14265,10 +14265,9 @@ a.anchor-link {
 <div class="jp-Cell-inputWrapper"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 style="font-family: var(--bs-font-sans-serif); font-size: calc(1.375rem + 1.5vw); font-weight:500; line-height: 1.2; margin-bottom: .5rem; margin-top: 0;"> <a href="https://www.facebook.com/An%C3%A1lisis-y-visualizaci%C3%B3n-de-datos-100602148375744"><img src="https://github.com/DataFeast71/COVID19_plots/blob/main/img/Logo_W.jpeg?raw=true" width="200" height="200"/></a>  Distribución de las vacunas COVID-19 </h1>
 <div style="font-family: var(--bs-font-sans-serif); font-size: 1rem; font-weight: 400; line-height: 1.5; color: #212529;" class="text-justify">
-<p>En un trabajo anterior vimos la representación de la venta de las vacunas en una red donde podiamos ver los paises que han asegurado vacunas y con que compañia sin embargo ahora estamos interesados en representar una variable cuantitativa presente en los datos, el número de vacunas que han comprado los paises.</p>
-<p>Tenemos las variables paises, compañias y el número de vacunas. Entre estas tres categorias podemos definir rutas dependiendo de nuestro interés y una forma de representarlo es mediante "treemap" y el cual tiene una gran ventaja ya que se puede realizar de manera interactiva para observar a mayor detalle.</p>
-<p>Utilizamos la variable cuantitativa para representar el tamaño de los cuadros y el número esta representado por millones.</p>
-<p>En el caso particular de México, en la red pudimos observar que México tiene 9 compañias con las que ha comprado las vacunas sin embargo aqui solo se muestran las compañias en las que hay un número definido de vacunas adquiridas.Con las otras compañias no hay registro, aún, de cuántas vacunas se han comprado.</p>
+<p>En un trabajo <a href="https://datafeast71.github.io/COVID19_plots/COVID_Vaccine_network.html">anterior</a> vimos la representación de la venta de las vacunas contra COVID 19 en una red donde podíamos ver los países que han comprado vacunas y con qué compañías lo han hecho.  Ahora en esta ocasión con las categorías “países”, “compañías” y “número de vacunas compradas” podemos definir rutas dependiendo de nuestro interés y una forma de representarlo es mediante un "treemap", el cual tiene una gran ventaja ya que es un gráfico interactivo.</p>
+<p>Para el “tree map” utilizamos la variable cuantitativa “número de vacunas compradas” para representar el tamaño de los cuadros (el número está representado por millones).</p>
+<p>En el caso particular de México, en la red pudimos observar que México ha comprado vacunas con 9 compañías, sin embargo, aquí solo se muestran las compañías en las que hay un número definido de vacunas adquiridas. De las otras compañías aún no se cuenta con un registro de cuantas vacunas se han adquirido</p>
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
@@ -14278,8 +14277,8 @@ a.anchor-link {
 </div>
 
 <div style="font-family: var(--bs-font-sans-serif); font-size: 1rem; font-weight: 400; line-height: 1.5; color: #212529;" class="text-justify">
-  <h2 id="Treemap-por-Compañia">Treemap por Compañia<a class="anchor-link" href="#Treemap-por-Compa%C3%B1ia">¶</a></h2>
-  <p>En este caso la ruta que queremos representar son las compañias y la venta de vacunas a los paises a los que les han vendido. De esta manera en un solo cuadro se encuentra una compañia y dentro los paises con el numero respectivo.</p>
+  <h2 id="Treemap-por-Compañia">Treemap de vacunas por Compañia<a class="anchor-link" href="#Treemap-por-Compa%C3%B1ia">¶</a></h2>
+  <p>En este caso la ruta que queremos representar son las compañías y cuantas vacunas han vendido a ciertos países. De esta manera en un cuadro representamos la compañía y dentro de este los países y el tamaño de los recuadros es proporcional a las vacunas compradas.</p>
   </div>
   <div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
@@ -14372,7 +14371,7 @@ if (outputEl) {{
 
 </div>
 <div style="font-family: var(--bs-font-sans-serif); font-size: 1rem; font-weight: 400; line-height: 1.5; color: #212529;" class="text-justify">
-  <h2 id="Treemap-por-País">Treemap por País<a class="anchor-link" href="#Treemap-por-Pa%C3%ADs">¶</a></h2><p>Ahora podemos representar los paises que han adquerido más vacunas y dentro de ellos cuales son las compañias a las que les han comprado.</p>
+  <h2 id="Treemap-por-País">Treemap de vacunas por país<a class="anchor-link" href="#Treemap-por-Pa%C3%ADs">¶</a></h2><p>En este caso la ruta que queremos representar es los países y cuantas vacunas han comprado a diferentes compañías. De esta manera podemos observar cuales son los países que han comprado más vacunas (recuadros más grandes) y dentro de los recuadros ver cual es el número de vacunas que han comprado a cada compañia compañías.</p>
     </div>
     <div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
